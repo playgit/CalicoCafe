@@ -1,7 +1,11 @@
 import React from 'react';
 import { Clock } from 'lucide-react';
 
-export default function Timer({ timeLeft }) {
+interface TimerProps {
+  timeLeft: number;
+}
+
+export default function Timer({ timeLeft }: TimerProps) {
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
 

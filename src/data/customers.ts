@@ -65,5 +65,51 @@ export const CAT_CUSTOMERS: CatCustomer[] = [
     color: 'bg-indigo-100',
     isVIP: true,
     description: 'A distinguished VIP who offers double points but expects swift service!'
+  },
+  {
+    id: 'inspector',
+    name: 'Inspector Pawsworth',
+    image: 'https://images.unsplash.com/photo-1516978101789-720eacb59e79?auto=format&fit=crop&w=92&h=92',
+    personality: 'Food Inspector',
+    color: 'bg-blue-50',
+    description: 'Only accepts drinks and desserts. Surprise me with something sweet! 🍵🍮',
+    isSpecial: true
+  },
+  {
+    id: 'emperor',
+    name: 'Emperor Meowximilian',
+    image: 'https://images.unsplash.com/photo-1577023311546-cdc07a8454d9?auto=format&fit=crop&w=92&h=92',
+    personality: 'Ultra VIP Royalty',
+    color: 'bg-gradient-to-r from-yellow-100 to-amber-200',
+    isVIP: true,
+    isSpecial: true,
+    description: '👑 The Emperor only accepts the finest golden elixirs. Ultra-luxurious drinks only!'
+  },
+  {
+    id: 'neko',
+    name: 'Neko',
+    image: 'https://images.unsplash.com/photo-1618826411640-d6df44dd3f7a?auto=format&fit=crop&w=92&h=92',
+    personality: 'Love Lover',
+    color: 'bg-pink-50',
+    isSpecial: true,
+    description: '💝 Only accepts pink, white, or red ingredients! Loves sweet and delicate flavors!'
+  },
+  {
+    id: 'sprout',
+    name: 'Sprout',
+    image: 'https://images.unsplash.com/photo-1548546738-8509cb246ed3?auto=format&fit=crop&w=92&h=92',
+    personality: 'Vegan Foodie',
+    color: 'bg-green-50',
+    isSpecial: true,
+    description: '🌱 Only accepts plant-based dishes! No animal products allowed!'
+  },
+  {
+    id: 'rex',
+    name: 'Rex the Catosaurus',
+    image: 'https://images.unsplash.com/photo-1519052537078-e6302a4968d4?auto=format&fit=crop&w=92&h=92',
+    personality: 'Prehistoric Carnivore',
+    color: 'bg-red-50',
+    isSpecial: true,
+    description: '🦖 RAWR! Only accepts meat dishes! The more protein, the better!'
   }
 ];
